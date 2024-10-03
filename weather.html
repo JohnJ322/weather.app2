@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main>
+        <div class="div1">
+            <input type="text" placeholder="Location" id="display">
+            <button id="btn"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="div2">
+            <h2 id="city">City</h2>
+        </div>
+        <div class="temp">
+            <p id="temp">--℃</p>
+            <h2>Temperature</h2>
+        </div>
+        <div class="div3">
+            <div class="div-con">
+                <span id="humidity">hm</span>
+                <p>Humidity</p>
+            </div>
+            <div class="div-con">
+                <span id="wind">kpm/mph</span>
+                <p>Wind</p>
+            </div>
+            <div class="div-con">
+                <span id="vis">km/m</span>
+                <p>Visibility</p>
+            </div>
+            <div class="div-con">
+                <span id="feel">℃</span>
+                <p>Feels like</p>
+            </div>
+            <div class="div-con">
+                <span id="span">mb</span>
+                <p>Pressure</p>
+            </div>
+            <div class="div-con">
+                <span id="uv">uv</span>
+                <p>Uv Index</p>
+            </div>
+        </div>
+    </main>
+    <script src="./weather.js"></script>
+</body>
+</html>
