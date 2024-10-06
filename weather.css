@@ -85,22 +85,35 @@ main{
     font-size: 1em;
     font-weight: bold;
 }
-@media (max-width:500px) {
+@media screen and (max-height:600px) {
     main{
-        width: 300px;
+        height:34em;
+    }
+}
+@media screen and (max-width:600px) {
+    main{
+        width: 600px;
     }
     .div1 input{
-        width: 170px;
+        width: 150px;
     }
 }
-@media (min-width:350px) {
+@media screen and (min-width:300px) {
     .div-con{
-        width:100;
+        width:138px;
+        margin-left: -5px;
+    }
+    .div-con span{
+        font-size: 0.5em;
     }
 }
-@media (max-width:450px) {
+@media screen and (max-width:400px) {
     .div-con{
-        width: 80px;;
+        width: 95px;
+
+    }
+    .div-con span{
+        font-size: 0.5em;
     }
 }
 
